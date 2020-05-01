@@ -7,7 +7,7 @@
     "build": "babel devjs/ -d js/",
     "prepublish": "npm run build",
     "flow": "flow",
-	"start": "http-server" //index.html placed at root of project folder will show up without any configuration
+	"start": "http-server"
   },
   "repository": {
     "type": "git",
